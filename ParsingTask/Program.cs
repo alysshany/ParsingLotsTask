@@ -48,8 +48,7 @@ namespace ConsoleApp
 
             driver.Navigate().GoToUrl("https://torgi.gov.ru/new/public/lots/reg");
 
-
-
+            //Прокрутка всей сраницы. P.S. Может занять очень много времени
             //IList<IWebElement> showMoreButtons = driver.FindElements(By.XPath("//*[contains(text(), 'Показать еще')]"));
 
             //// Нажимаем кнопки, пока они не исчезнут
